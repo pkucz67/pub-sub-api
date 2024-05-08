@@ -216,7 +216,7 @@ public class CommonContext implements AutoCloseable {
         List<GenericRecord> events = new ArrayList<>();
         for (int i=0; i<numEvents; i++) {
             events.add(new GenericRecordBuilder(schema).set("CreatedDate", System.currentTimeMillis())
-                    .set("CreatedById", "<User_Id>").set("Order_Number__c", orderNumbers[i % 5])
+                    .set("CreatedById", "005Hp00000hgKGm").set("Order_Number__c", orderNumbers[i % 5])
                     .set("City__c", cities[i % 5]).set("Amount__c", amounts[i % 5]).build());
         }
 

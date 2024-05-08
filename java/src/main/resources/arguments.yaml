@@ -12,14 +12,14 @@ PUBSUB_HOST: api.pubsub.salesforce.com
 # Pub/Sub API Host
 PUBSUB_PORT: 7443
 # Your Salesforce Login URL
-LOGIN_URL: null
+LOGIN_URL: https://cta27.my.salesforce.com
 
 # For authentication, you can use either username/password or accessToken/tenantId types.
 # Either one of the combinations is required. Please specify `null` values to the unused type.
 # Your Salesforce Username
-USERNAME: null
+USERNAME: pk@cta27.com
 # Your Salesforce Password
-PASSWORD: null
+PASSWORD: sk1@Alta
 # Your Salesforce org Tenant ID
 TENANT_ID: null
 # Your Salesforce Session Token
@@ -36,7 +36,7 @@ NUMBER_OF_EVENTS_TO_PUBLISH: null
 # Indicates whether to add events to a single PublishRequest (true) or
 # in different PublishRequests (default: false)
 # Used only by PublishStream.java
-SINGLE_PUBLISH_REQUEST: null
+SINGLE_PUBLISH_REQUEST: true
 # Number of Events to subscribe (default: 5)
 NUMBER_OF_EVENTS_IN_FETCHREQUEST: null
 # ReplayPreset (Accepted Values: {EARLIEST, LATEST (default), CUSTOM})
